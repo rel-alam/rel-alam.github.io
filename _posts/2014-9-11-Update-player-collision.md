@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Update Player Collision
 ---
 An update to the base entity was done and since the player inherits from the base entity class has broke its constructor. This was a quick fix to reflect the player’s constructor to match that given by the base entity class.
 

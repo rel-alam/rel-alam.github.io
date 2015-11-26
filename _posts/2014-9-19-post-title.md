@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Post Title
 ---
 Some small bugs such as drawing was fixed today as well as correctly outputting the right statement when a collision occurred.
 

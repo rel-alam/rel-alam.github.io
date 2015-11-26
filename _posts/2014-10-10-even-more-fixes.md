@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Even More Fixes
 ---
 Added in a pause state into game with the ability to quit, save, or resume.
 

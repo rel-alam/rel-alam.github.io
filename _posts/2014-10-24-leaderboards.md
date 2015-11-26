@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Leaderboard Addition
 ---
 Today I added in leaderboards which only displays the top 6 scores after sorting the list.
 

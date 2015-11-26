@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Scores and Sounds
 ---
 A small addition was added today which were the scores and the saving of the scores. Currently the scores do not sort into the correct order and is saved to the bottom of the file.
 

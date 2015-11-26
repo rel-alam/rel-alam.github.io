@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Saving and Loading
 ---
 The player class now has four new textures added to it for the front, back and side images which changes to the correct image depending the last way the player moved. Attack has also been given a counter to stop spam hitting and slowing it down to a more reasonable speed. A new check for the player’s alive state has been added to set to false when the health reaches 0 or less.
 

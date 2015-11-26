@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Loading Animations
 ---
 Loading from the main menu has finally been completed on having a small of issue of trying to access the player to assign it loaded values before the game started. This caused the null bug to occur as since the player has not yet been created. To fix this, a new game play state is pushed on and then the loading is called. This ensures that the player now exists and we can safely load in the player variables.
 

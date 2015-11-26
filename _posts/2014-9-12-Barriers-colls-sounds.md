@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Barriers, Collisions and Sounds
 ---
 It seems kind of strange that the collision manager already has reference to the barrier class before its shell was even being started. Anyways the barrier is a simple class to create walls in the game that the player cannot pass. It only needed the position to be set within the constructor with the rest done in its inherited class.
 

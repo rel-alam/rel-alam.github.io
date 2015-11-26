@@ -1,10 +1,11 @@
 ---
+layout: post
+title: Enum and Animations
 ---
 
 The animation class now uses an enum to determine which sprite from a sprite sheet it should play.
 
-
-public enum animationFrame
+public enum animationFrame 
 {
 Back = 0, Left, Right, Forward, unknown, unknown2, unknown3, unknown4, unknown5, unknown6
 };
