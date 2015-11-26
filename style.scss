@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import "bootstrap";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -18,9 +19,9 @@ html {
 }
 
 body {
-	background: $white;
+	background: $darkGray;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $white;
 }
 
 .container {
@@ -46,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  color: #848894;
   a {
     color: inherit;
   }
@@ -68,8 +70,17 @@ p {
   margin: 15px 0;
 }
 
+padd {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+
+
 a {
-  color: $blue;
+  color: #03588C;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -190,14 +201,35 @@ img {
   }
 }
 
+
+.site-link {
+
+  font-family: $helveticaNeue;
+  color: #F00;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #FFF;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+}
+
+.blog-link {
+  color: #00C2FF;
 }
 
 .site-description {
@@ -275,13 +307,26 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $darkGray;
 }
+
+.btn {
+  color: $black;
+  background-color: #A9A9A9;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 footer {
   padding: 20px 0;
   text-align: center;
+  background-color: $darkGray;
 }
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
